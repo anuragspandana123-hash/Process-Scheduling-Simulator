@@ -96,4 +96,68 @@ Waiting Time = Turnaround Time - Burst Time
 Response Time = First Start Time - Arrival Time
 
 ##How to Run
+#CLONE REPOSITORY
+git clone <your-github-repository-link>
+cd Process-Scheduling-Simulator
+
+#TO COMPILE
 gcc -Wall -Wextra -std=c11 main.c process.c scheduler.c -o scheduler
+
+#TO RUN
+scheduler.exe
+
+## Sample Input
+
+```text
+Enter number of processes: 4
+
+Process 1:
+Arrival Time: 0
+Burst Time: 5
+Priority: 2
+
+Process 2:
+Arrival Time: 1
+Burst Time: 3
+Priority: 1
+
+Process 3:
+Arrival Time: 2
+Burst Time: 8
+Priority: 3
+
+Process 4:
+Arrival Time: 3
+Burst Time: 2
+Priority: 2
+
+##SAMPLE OUTPUT
+Process Scheduling Simulator
+
+Selected Algorithm: Round Robin
+Time Quantum: 2
+
+Gantt Chart:
+| P1 | P2 | P3 | P4 | P1 | P2 | P3 | P3 |
+0    2    4    6    8    10   11   13   19
+
+Process    CT    TAT    WT    RT
+P1         11     11     6     0
+P2         13     12     9     1
+P3         19     17     9     2
+P4          8      5     3     3
+
+Average Waiting Time   : 6.75
+Average Turnaround Time: 11.25
+Average Response Time  : 1.50
+CPU Utilization        : 100%
+
+## Applications
+
+- Understanding CPU scheduling algorithms
+- Performing Operating Systems laboratory experiments
+- Comparing the performance of different scheduling algorithms
+- Analyzing CPU workload behavior
+- Learning modular C programming
+- Demonstrating CPU scheduling concepts during technical interviews
+
