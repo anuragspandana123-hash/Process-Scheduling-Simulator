@@ -242,11 +242,15 @@ for this workload.
 #Note:-
 The simulator recommends the algorithm with the lowest weighted performance score based on average waiting time and response time.
 
-### Output Screenshots
+## Output Screenshots
 
-![Output Screenshot 1](./output1.png)
+### Process Scheduling Output
 
-![Output Screenshot 2](./output2.png)
+![Process Scheduling Output](output1.png)
+
+### Performance Comparison and Recommendation
+
+![Performance Comparison](output2.png)
 
 ## Applications
 
