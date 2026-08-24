@@ -244,9 +244,9 @@ The simulator recommends the algorithm with the lowest weighted performance scor
 
 ### Output Screenshots
 
-[![Output Screenshot 1](./output1.png)](./output1.png)
+![Output Screenshot 1](./output1.png)
 
-[![Output Screenshot 2](./output2.png)](./output2.png)
+![Output Screenshot 2](./output2.png)
 
 ## Applications
 
