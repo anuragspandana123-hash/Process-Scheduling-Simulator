@@ -57,7 +57,6 @@ The simulator implements the following CPU scheduling algorithms:
 
 ## Project Structure
 
-```text
 Process-Scheduling-Simulator/
 │
 ├── main.c
@@ -69,7 +68,6 @@ Process-Scheduling-Simulator/
 
 ## Project Flow
 
-```text
 START
   ↓
 Enter Number of Processes
@@ -129,7 +127,6 @@ The simulator calculates the following performance metrics:
 
 ### Formulas
 
-```text
 Turnaround Time (TAT) = Completion Time - Arrival Time
 
 Waiting Time (WT) = Turnaround Time - Burst Time
@@ -263,19 +260,19 @@ The simulator recommends the algorithm with the lowest weighted performance scor
 
 ## Future Enhancements
 
-- Graphical User Interface:** Develop an interactive GUI for process input and scheduling visualization.
+- Graphical User Interface: Develop an interactive GUI for process input and scheduling visualization.
 - Advanced Scheduling Algorithms: Add Multilevel Queue and Multilevel Feedback Queue scheduling.
-- Multi-Core Simulation:** Extend the simulator to support scheduling across multiple CPU cores.
-- Advanced Visualization:** Add graphical Gantt charts, performance graphs, and animated process execution.
-- Data Export and Reporting:** Add options to export scheduling results and generate detailed performance reports.
+- Multi-Core Simulation: Extend the simulator to support scheduling across multiple CPU cores.
+- Advanced Visualization: Add graphical Gantt charts, performance graphs, and animated process execution.
+- Data Export and Reporting: Add options to export scheduling results and generate detailed performance reports.
 
 ## Learning Outcomes
 
-- Gained practical understanding of **CPU scheduling algorithms** used in Operating Systems.
-- Learned to calculate and analyze **Completion Time, Turnaround Time, Waiting Time, and Response Time**.
-- Improved practical knowledge of **structures, arrays, pointers, functions, and header files** in C.
-- Learned to implement **modular programming** by organizing a project into multiple source and header files.
-- Developed skills in **algorithm design, performance analysis, testing, debugging, and technical documentation.
+- Gained practical understanding of "CPU scheduling algorithms" used in Operating Systems.
+- Learned to calculate and analyze Completion Time, Turnaround Time, Waiting Time, and Response Time**.
+- Improved practical knowledge of structures, arrays, pointers, functions, and header files** in C.
+- Learned to implement modular programming by organizing a project into multiple source and header files.
+- Developed skills in algorithm design, performance analysis, testing, debugging, and technical documentation.
 
 ## Author
 
