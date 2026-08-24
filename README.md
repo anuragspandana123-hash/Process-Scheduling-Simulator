@@ -242,6 +242,14 @@ for this workload.
 #Note:-
 The simulator recommends the algorithm with the lowest weighted performance score based on average waiting time and response time.
 
+### Output Screenshot 1
+
+![Process Scheduling Output](output1.png)
+
+### Output Screenshot 2
+
+![Performance Comparison and Recommendation](output2.png)
+
 ## Applications
 
 - Understanding CPU Scheduling:Helps users understand how different CPU scheduling algorithms manage processes and allocate CPU time.
